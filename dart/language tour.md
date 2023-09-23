@@ -1,7 +1,7 @@
 
-[![x](../asset/dart.svg)](https://dart.dev/language/variables)
+[<img src="../asset/dart.svg" width="150" />](https://dart.dev/language/variables)
 
-# Language tour
+## Language tour
 
 
 ### Variables
