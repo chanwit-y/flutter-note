@@ -24,9 +24,8 @@ void main(List<String> arguments) {
     bank100: inputBank100,
   );
 
-  print('ATM balance: ${atm.total}');
-
   while (true) {
+    print('ATM balance: ${atm.total}');
     stdout.write('Enter amount: ');
     var input = stdin.readLineSync();
 
@@ -37,7 +36,7 @@ void main(List<String> arguments) {
       try {
         atm.withdraw(amount);
         print('Withdraw $amount success');
-        print('ATM balance: ${atm.total}');
+        // print('ATM balance: ${atm.total}');
         print('Bank 1000: ${atm.bank1000}');
         print('Bank 500: ${atm.bank500}');
         print('Bank 100: ${atm.bank100}');
